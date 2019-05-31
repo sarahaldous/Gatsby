@@ -16,6 +16,7 @@ module.exports = {
         path: `${__dirname}/src/`,
       },
     },
+    `gatsby-transformer-remark`,
     `gatsby-plugin-emotion`,
     {
       resolve: `gatsby-plugin-typography`,
@@ -23,5 +24,38 @@ module.exports = {
         pathToConfigModule: `src/utils/typography`,
       },
     },
-  ],
-}
+    {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: "GatsbyJS",
+        short_name: "GatsbyJS",
+        start_url: "/",
+        background_color: "#6b37bf",
+        theme_color: "#6b37bf",
+        // Enables "Add to Homescreen" prompt and disables browser UI (including back button)
+        // see https://developers.google.com/web/fundamentals/web-app-manifest/#display
+        display: "standalone",
+        icon: "src/images/icon.png", // This path is relative to the root of the site.
+      },
+    },
+  ]
+    // {
+    //   resolve: `gatsby-source-airtable`,
+    //   options: {
+    //     apiKey: `YOUR_AIRTABLE_KEY`, // may instead specify via env, see below
+    //     tables: [
+          // {
+          //   baseId: `YOUR_AIRTABLE_BASE_ID`,
+          //   tableName: `YOUR_TABLE_NAME`,
+          //   tableView: `YOUR_TABLE_VIEW_NAME`, // optional
+          //   queryName: `OPTIONAL_NAME_TO_IDENTIFY_TABLE`, // optional
+          //   mapping: { `CASE_SENSITIVE_COLUMN_NAME`: `VALUE_FORMAT` }, // optional, e.g. "text/markdown", "fileNode"
+          //   tableLinks: [`CASE`, `SENSITIVE`, `COLUMN`, `NAMES`] // optional, for deep linking to records across tables.
+          // },
+          // {
+          //   baseId: `YOUR_AIRTABLE_BASE_ID`,
+          //   tableName: `YOUR_TABLE_NAME`,
+          //   tableView: `YOUR_TABLE_VIEW_NAME` // optional
+            // can leave off queryName, mapping or tableLinks if not needed
+          }
+        

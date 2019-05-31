@@ -24,7 +24,7 @@ export default ({ data }) => {
                 <td>{node.prettySize}</td>
                 <td>{node.extension}</td>
                 <td>{node.birthTime}</td>
-              </tr>
+                </tr>
             ))}
           </tbody>
         </table>
