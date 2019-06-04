@@ -7,5 +7,6 @@ export default () => (
         <Link to="/">Home</Link>
         <Header headerText="Contact" />
         <p>Send us a message!</p>
+        <button>Submit</button>
     </div>
 )
