@@ -7,16 +7,33 @@ import { rhythm } from "../utils/typography"
 export default ({ children }) => {
     const data = useStaticQuery(
         graphql`
-          query {
-            site {
-              siteMetadata {
-                title
+        query {
+
+
+        allAirtable {
+            edges {
+              node {
+                data {
+                  Your_Name
+                  Project_Type
+                  Project_Name
+                  Project_Link
+                  Link_To_Portfolio
+                }
               }
             }
           }
+        }
         `
+
       )
-    return (
+      console.log(data)
+      const projects = data.allAirtable.edges.map (item => {
+          const project = item.node
+      })
+      
+      return (
+
   <div
     css={css`
       margin: 0 auto;
@@ -33,7 +50,6 @@ export default ({ children }) => {
           font-style: normal;
         `}
       >
-        {data.site.siteMetadata.title}
       </h3>
     </Link>
     <Link
@@ -46,6 +62,6 @@ export default ({ children }) => {
     </Link>
     {children}
   </div>
-    
+      
     )
 }

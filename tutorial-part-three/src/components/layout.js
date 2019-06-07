@@ -1,5 +1,6 @@
 import React from "react"
 import {Link} from "gatsby"
+import styles from "src\global.css"
 
 const ListLink = props => (
     <li style={{ display: `inline-block`, marginRight: `1rem` }}>
@@ -21,7 +22,7 @@ export default ({ children }) => (
       </header>
       {children}
       
-      <footer style={{fontSize: `0.88rem`, color: `crimson`}}>
+      <footer style={{fontSize: `0.88rem`, color: `goldenrod`}}>
           Some footer here.
       </footer>
     </div>
