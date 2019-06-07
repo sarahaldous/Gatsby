@@ -30,11 +30,14 @@ export default ({ children }) => {
       console.log(data)
       const projects = data.allAirtable.edges.map (item => {
           const project = item.node
+          console.log(project)
       })
       
       return (
 
   <div
+  
+  
     css={css`
       margin: 0 auto;
       max-width: 700px;
@@ -42,6 +45,10 @@ export default ({ children }) => {
       padding-top: ${rhythm(1.5)};
     `}
   >
+    <h1>props.{project.Project_Name}</h1>
+    <h3>by {project.Your_Name}</h3>
+    <p>{project.Project_Type}</p>
+
     <Link to={`/`}>
       <h3
         css={css`
