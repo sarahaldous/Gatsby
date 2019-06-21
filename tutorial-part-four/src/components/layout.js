@@ -1,5 +1,6 @@
 import React from "react"
 import { Link } from "gatsby"
+
 const ListLink = props => (
   <li style={{ display: `inline-block`, marginRight: `1rem` }}>
     <Link to={props.to}>{props.children}</Link>
@@ -23,6 +24,17 @@ export default ({ children }) => (
       </ul>
     </header>
     {children}
+    <footer className="footer" style={{ marginBottom: `1.5rem`, color: `green`}}>
+      <Link to="/" style={{ textShadow: `none`, backgroundImage: `none` }}>
+        
+      </Link>
+      <li style={{ listStyle: `none`, float: `right`, display: `block`, color: `blue` }}>
+        
+        <ListLink to="/counter/">Counter</ListLink>
+        <ListLink to="/hooks-counter/">Hooks Counter</ListLink>
+        <ListLink to="/newprojects/">Add New Project</ListLink>
+      </li>
+    </footer>
   </div>
 )
 
