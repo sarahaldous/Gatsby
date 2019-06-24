@@ -16,7 +16,10 @@ const Header = ({ siteTitle }) => (
         padding: `1.45rem 1.0875rem`,
       }}
     >
-        <ul style={{ listStyle: `block`, float: `right`, color: `black`}}>
+        <ul className="headerList" style={{ listStyle: `block`, float: `right`, color: `black` }}>
+        <Link
+         href={`src/images/logos/V-School.png`}
+         ></Link>
         <Link to="/">Home</Link>
         <Link to="/about/">Courses</Link>
         <Link to="/contact/">Veterans</Link>
@@ -34,7 +37,7 @@ const Header = ({ siteTitle }) => (
             textDecoration: `none`,
           }}
         >
-          {siteTitle}
+          {/* {siteTitle} */}
         </Link>
       
       </h1>
@@ -42,9 +45,9 @@ const Header = ({ siteTitle }) => (
   </header>
 )
 
-Header.propTypes = {
-  siteTitle: PropTypes.string,
-}
+// Header.propTypes = {
+//   siteTitle: PropTypes.string,
+// }
 
 Header.defaultProps = {
   siteTitle: ``,
