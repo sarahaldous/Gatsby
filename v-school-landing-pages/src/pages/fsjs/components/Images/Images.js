@@ -30,9 +30,9 @@ function Images({ data }) {
             display: none;
         }
     `
-    // const middleImgs = data.middle.map((img, i) => (
-        // <ExtraImgs src={require(`../../images/${img}`)} key={i + 1} />
-    // ))
+    const middleImgs = data.middle.map((img, i) => (
+        <ExtraImgs src={require(`../../../../images/${img}`)} key={i + 1} />
+    ))
 
     return (
         <Container>

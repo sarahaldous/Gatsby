@@ -100,7 +100,10 @@ function Intro({ data }) {
             </TextContainer>
             <Container>
                 <Img
-                    // src={require(`../../images/${data.image}`)}
+                    // src={require(`../../../data/${intro.image}`)}
+                    // src\images\michael_with_shadow.png
+                    // src={require(`../../../../images/logos/${company.image}`)}
+                    src="../../../../images/michael_with_shadow.png"
                     alt="V School Student"
                 />
             </Container>

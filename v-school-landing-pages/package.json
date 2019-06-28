@@ -7,7 +7,7 @@
   "dependencies": {
     "@emotion/core": "^10.0.10",
     "@emotion/styled": "^10.0.12",
-    "@material-ui/core": "^3.9.2",
+    "@material-ui/core": "^3.9.3",
     "@material-ui/icons": "^3.0.2",
     "emotion": "^10.0.9",
     "gatsby": "^2.9.11",
@@ -25,7 +25,7 @@
     "react-helmet": "^5.2.1",
     "react-hubspot-form": "^1.3.7",
     "react-instafeed": "^1.0.0",
-    "react-scroll": "^1.7.11"
+    "react-scroll": "^1.7.12"
   },
   "devDependencies": {
     "prettier": "^1.18.2"

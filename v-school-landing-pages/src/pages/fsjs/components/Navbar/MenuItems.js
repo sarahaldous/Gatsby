@@ -1,9 +1,9 @@
 import React, { Fragment, Component } from "react"
 import styled from "@emotion/styled"
-// import Menu from "@material-ui/core/Menu"
-// import MenuItem from "@material-ui/core/MenuItem"
-// import ListItem from "@material-ui/core/ListItem/ListItem"
-// import Link from "@material-ui/core/Link"
+import Menu from "@material-ui/core/Menu"
+import MenuItem from "@material-ui/core/MenuItem"
+import ListItem from "@material-ui/core/ListItem/ListItem"
+import Link from "@material-ui/core/Link"
 
 function ListItemLink(props) {
     return <ListItem component="a" {...props} />
@@ -35,7 +35,7 @@ class MenuItems extends Component {
             height: 32px;
         `
 
-        const Li = styled.li`
+        const Li = styled.li`{{
             color: var(--white);
             cursor: pointer;
             transition: all 500ms ease;
@@ -44,6 +44,7 @@ class MenuItems extends Component {
             :active {
                 color: var(--green);
             }
+        }}
         `
 
         const A = styled.a`

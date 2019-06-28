@@ -1,6 +1,6 @@
 import React, { Component } from "react"
 import styled from "@emotion/styled"
-import vsLogo from "src\images\logos\VSLogosmall.png"
+import vsLogo from "../../../../images/logos/VSLogosmall.png"
 // import { Link, animateScroll as scroll } from "react-scroll"
 import Drawer from "./Drawer"
 import FullMenu from "./FullMenu"

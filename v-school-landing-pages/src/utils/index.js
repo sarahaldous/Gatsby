@@ -15,15 +15,19 @@ export const getFormId = () => {
             x: "6ae9d789-6d45-40f1-879a-b771bccf92be"
         }
     }
-    const course = process.env.COURSE
-    const source = process.env.SOURCE
-
+    // const course = process.env.COURSE
+    // const source = process.env.SOURCE
+    const course ="fsjs"
+    const source = "n"
+    
     return formIds[course][source]
 }
 
 export const getMeetingLink = () => {
-    const course = process.env.COURSE
-    const source = process.env.SOURCE
+    // const course = process.env.COURSE
+    // const source = process.env.SOURCE
+    const course ="fsjs"
+    const source = "n"
 
     return `https://app.hubspot.com/meetings/vschool/${course}-${source}?embed=true`
 }

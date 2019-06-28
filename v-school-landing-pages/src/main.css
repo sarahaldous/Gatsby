@@ -24,7 +24,7 @@
   }
   header {
     font-family: work-sans, sans-serif;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     font-size: 0.8em;
     letter-spacing: 0.1em;
     justify-content: flex-end;
@@ -82,8 +82,8 @@
     outline: none;
     transition: all 500ms ease;
     border: none;
-    background-color: var(--green);
     color: var(--white);
+    background-color: var(--green);
   }
   
   button:hover, button:active {
@@ -97,8 +97,11 @@
     transition: all 500ms ease;
   }
   
-  a:hover, a:active {
+  a:hover {
     color: var(--green);
+  }
+  a:active {
+    color: var(--white);
   }
   
   

@@ -1,0 +1,105 @@
+{
+    "intro": {
+        "header": "Master Full Stack JavaScript",
+        "text": "Our Full Stack JavaScript curriculum is responsive to the needs of industry, crafted to teach you the most relevant computer engineering skills needed for a high paying career as a developer.",
+        "image": "michael_with_shadow.png"
+    },
+    "outcomes": {
+        "stats": [
+            {
+                "stat": "62+",
+                "description": "Industry Partners"
+            },
+            {
+                "stat": "7:1",
+                "description": "Student-to-instructor Ratio"
+            },
+            {
+                "stat": "$65K",
+                "description": "Average Graduate Salary"
+            }
+        ],
+        "alumniAt": [
+            {
+                "image": "Google.png",
+                "alt": "Google"
+            },
+            {
+                "image": "Adobe.png",
+                "alt": "Adobe"
+            },
+            {
+                "image": "Domo.png",
+                "alt": "Domo"
+            },
+            {
+                "image": "IBM.png",
+                "alt": "IBM"
+            },
+            {
+                "image": "NuSkin.png",
+                "alt": "NuSkin"
+            }
+        ]
+    },
+    "images": {
+        "main": "XD_Fireplace.png",
+        "middle": [
+            "Jessica.png",
+            "Tree_Window.png"
+        ],
+        "last": "Ilian_Morgan.png"
+    },
+    "testimonial": {
+        "title": "Making the Leap",
+        "text": "Graduated yesterday with multiple offers, and doubled my income after taking a job in my home town as a software engineer. If you’re on the fence, make the leap. I’m beyond glad I did. Before this, I was a security guard working the graveyard shift for barely above minimum wage. I wish I was kidding.",
+        "name": "Mark Smith"
+    },
+    "topics": {
+        "image": "FSJS_Skills.png"
+    },
+    "skills": {
+        "title": "Gain a full command of JavaScript",
+        "sub": "",
+        "list": ["Foundations", "Frontend Web Applications", "Project Management", "Problem Solving", "Programming Principles", "Testing", "Version Control", "Career Prep"]
+    },
+    "nextSession": {
+        "date": "July 9th",
+        "list": ["GI Bill accepted", "Local housing options", "$14,900"]
+    },
+    "reviews": {
+        "title": "Highly recommended",
+        "reviews": [
+            {
+                "score": "4.9/5",
+                "logo": "Facebook.png"
+            },
+            {
+                "score": "5/5",
+                "logo": "Switchup.png"
+            },
+            {
+                "score": "5/5",
+                "logo": "Thinkful.png"
+            }
+        ]
+    },
+    "book": {
+        "title": "Book a Time",
+        "sub": "Make an appointment with Team V School to find out if a career in design is right for you."
+    },
+    "v5": {
+        "title": "V=5",
+        "list": ["Responsive Learning", "Career Skills", "Community", "Human Centered", "Inclusive Culture"]
+    },
+    "events": [
+        {
+            "image": "Anatta_Event.png"
+        },
+        {
+            "image": "srcodecamp.png"
+        }
+    ]
+}   
+   
+        

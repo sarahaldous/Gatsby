@@ -1,10 +1,10 @@
 import React from "react"
 import styled from "@emotion/styled"
-import facebook from "src/images/icons/social/Icon_Facebook.png"
-import instagram from "src/images/icons/social/Instagram.png"
-import linkedin from "src/images/icons/social/LinkedIn.png"
-import twitter from "src\images\icons\social\Twitter.png"
-import youtube from "src\images\icons\social\YouTube.png"
+import facebook from "../../../../images/icons/social/Icon_Facebook.png"
+import instagram from "../../../../images/icons/social/Instagram.png"
+import linkedin from "../../../../images/icons/social/LinkedIn.png"
+import twitter from "../../../../images/icons/social/Twitter.png"
+import youtube from "../../../../images/icons/social/YouTube.png"
 
 const Container = styled.section`
     display: flex;
@@ -68,9 +68,9 @@ function Footer({data}) {
             <Group>
                 <H5>Next Sessions</H5>
                 <P>Full Stack JS - Full Time</P>
-                <Small>Starting {data.fsjs.nextSession.date}</Small>
-                <P>Experience Design - Full Time</P>
-                <Small>Starting {data.xd.nextSession.date}</Small>
+                <Small>Starting {data.nextSession.date}</Small>
+                {/* <P>Experience Design - Full Time</P>
+                <Small>Starting {data.xd.nextSession.date}</Small> */}
             </Group>
             <Group>
                 <H5>Stay in the Loop</H5>

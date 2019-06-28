@@ -63,7 +63,7 @@ function Outcomes({ data }) {
         return (
             <Img
                 key={i + 1}
-                // src={require(`../../images/logos/${company.image}`)}
+                src={require(`../../../../images/logos/${company.image}`)}
                 alt={company.alt}
             />
         )
