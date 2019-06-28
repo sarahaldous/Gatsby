@@ -103,9 +103,9 @@ function Footer({data}) {
                         Free Course
                     </a>
                 </P>
-                {/*<P>*/}
-                {/*<a href="#">Scholarships</a>*/}
-                {/*</P>*/}
+                <P>
+                <a href="#">Scholarships</a>
+                </P>
             </Group>
         </Container>
     )

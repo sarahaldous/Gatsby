@@ -1,5 +1,6 @@
 import React, { Component } from "react"
 import styled from "@emotion/styled"
+import containerStyles from "./navbar.css"
 import vsLogo from "../../../../images/logos/VSLogosmall.png"
 // import { Link, animateScroll as scroll } from "react-scroll"
 import Drawer from "./Drawer"
@@ -33,6 +34,7 @@ class Navbar extends Component {
             background-color: var(--beige);
             display: flex;
             justify-content: space-between;
+            text-transform: uppercase;
             align-items: center;
             height: 40px;
             padding: 16px;

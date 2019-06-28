@@ -36,9 +36,9 @@ function Images({ data }) {
 
     return (
         <Container>
-            {/* <MainImg src={require(`../../images/${data.main}`)} /> */}
+            <MainImg src={require(`../../../../images/${data.main}`)} />
             <Div>{middleImgs}</Div>
-            {/* <ExtraImgs src={require(`../../images/${data.last}`)} /> */}
+            <ExtraImgs src={require(`../../../../images/${data.last}`)} />
         </Container>
     )
 }

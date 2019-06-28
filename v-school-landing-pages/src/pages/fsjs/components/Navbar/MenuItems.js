@@ -39,7 +39,7 @@ class MenuItems extends Component {
             color: var(--white);
             cursor: pointer;
             transition: all 500ms ease;
-
+            text-transform: uppercase;
             :hover,
             :active {
                 color: var(--green);

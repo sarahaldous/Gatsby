@@ -34,10 +34,10 @@ function Topics({ data }) {
     return (
         <Container>
             <H1>We'll Teach You</H1>
-            {/* <Img
-                src={require(`../../images/${data.image}`)}
+            <Img
+                src={require(`../../../../images/${data.image}`)}
                 alt="List of Topics taught at V School"
-            /> */}
+            />
         </Container>
     )
 }
