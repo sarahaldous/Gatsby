@@ -57,7 +57,7 @@ class FullMenu extends Component {
 
         const Dropdown = styled.div`
             position: absolute;
-            // color: var(--white);
+            color: var(--white);
             background-color: var(--black);
             text-align: left;
             display: flex;

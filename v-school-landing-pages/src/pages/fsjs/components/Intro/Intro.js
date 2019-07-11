@@ -1,6 +1,7 @@
 import React from "react"
 import styled from "@emotion/styled"
 import { Link } from "react-scroll"
+import Image from "../../../../images/michael_with_shadow.png"
 
 // import SVG from "./SVG"
 // import shadow from "../../images/photo_shadow.svg"
@@ -102,8 +103,8 @@ function Intro({ data }) {
                 <Img
                     // src={require(`../../../../${data.image}`)}
                     // src\images\michael_with_shadow.png
-                    // src={require(`../../../../images/logos/${company.image}`)}
-                    // src=("../../../../images/michael_with_shadow.png")
+                    src={require("../../../../images/michael_with_shadow.png")}
+                    // src={Image}
                     alt="V School Student"
                 />
             </Container>
@@ -112,3 +113,4 @@ function Intro({ data }) {
 }
 
 export default Intro
+// module.exports = Intro should work the same as export default Intro. Without webpack, you must use require, not esport default.
