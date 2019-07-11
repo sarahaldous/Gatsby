@@ -89,11 +89,11 @@ button:hover, button:active {
   background-color: var(--black);
 }
 
-a {
+/* a {
   color: var(--black);
   text-decoration: none;
   transition: all 500ms ease;
-}
+} */
 
 a:hover, a:active {
   color: var(--green);

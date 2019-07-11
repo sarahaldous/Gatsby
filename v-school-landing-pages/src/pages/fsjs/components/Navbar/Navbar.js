@@ -1,12 +1,9 @@
 import React, { Component } from "react"
 import styled from "@emotion/styled"
-import containerStyles from "./navbar.css"
 import vsLogo from "../../../../images/logos/VSLogosmall.png"
 // import { Link, animateScroll as scroll } from "react-scroll"
 import Drawer from "./Drawer"
 import FullMenu from "./FullMenu"
-
-import "./navbar.css"
 
 class Navbar extends Component {
     constructor() {

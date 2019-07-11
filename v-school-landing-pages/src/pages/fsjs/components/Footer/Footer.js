@@ -35,6 +35,7 @@ const H5 = styled.h5`
 
 const P = styled.p`
     margin: 0 auto;
+    color: var(--white);
 
     & > a {
         color: var(--white);

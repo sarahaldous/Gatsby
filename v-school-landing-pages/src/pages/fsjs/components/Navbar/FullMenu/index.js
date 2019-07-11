@@ -30,20 +30,11 @@ class FullMenu extends Component {
             display: inline-block;
             position: relative;
             font-family: work-sans, sans-serif;
-            // text-transform: uppercase;
             float: none;
             letter-spacing: 2px;
             font-size: 13px;
             font-weight: 500;
             cursor: pointer;
-
-            & > a {
-                color: var(--black);
-
-                :hover {
-                    color: var(--green);
-                }
-            }
         `
 
         const Button = styled.button`
@@ -71,6 +62,7 @@ class FullMenu extends Component {
 
         const Item = styled.a`
             padding: 20px;
+            color: var(--white);
         `
 
         const A = styled.a`
