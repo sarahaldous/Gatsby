@@ -7,7 +7,7 @@ const Contact = () => {
         <Layout>
              <p>Send us a message!</p>
         <button>Submit</button>
-        <p>Or just go shopping <a href="https://www.amazon.com/" target="_blank" >on Amazon</a></p>
+        <p>Or just go shopping <a href="https://www.amazon.com/" target="_blank" rel="noopener noreferrer" >on Amazon</a></p>
         </Layout>
     )
 }
