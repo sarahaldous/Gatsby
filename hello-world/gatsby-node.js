@@ -1,33 +1,23 @@
 const path = require('path')
 
-
 module.exports.onCreateNode = ({ node, actions }) => {
     const { createNodeField } = actions
-    console.log(JSON.stringify(node, undefined, 4))
-
 
     if (node.internal.type === 'MarkdownRemark') {
-        console.log(JSON.stringify(node, undefined, 4))
-    
         const slug = path.basename(node.fileAbsolutePath, '.md')
-        createNodeField ({
+
+        createNodeField({
             node,
             name: 'slug',
             value: slug
         })
-    }
-
-//         createNodeField({
-//             node,
-//             name: 'slug',
-//             value: slug
-//         })
-//     }
-// }
+    }    
+}
 
 module.exports.createPages = async ({graphql, actions}) => {
     const { createPage } = actions
     const blogTemplate = path.resolve('./src/templates/blog.js')
+    //path.resolve fills in the rest of the path to the root of your hard drive that comes before what's typed here.
     const res = await graphql(`
         query {
             allMarkdownRemark {
@@ -51,3 +41,44 @@ res.data.allMarkdownRemark.edges.forEach((edge) => {
     })
 })
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// const path = require('path')
+
+
+// module.exports.onCreateNode = ({ node, actions }) => {
+//     const { createNodeField } = actions
+//     console.log(JSON.stringify(node, undefined, 4))
+
+
+//     if (node.internal.type === 'MarkdownRemark') {
+//         console.log(JSON.stringify(node, undefined, 4))
+    
+//         const slug = path.basename(node.fileAbsolutePath, '.md')
+//         createNodeField ({
+//             node,
+//             name: 'slug',
+//             value: slug
+//         })
+//     }
+
+// //         createNodeField({
+// //             node,
+// //             name: 'slug',
+// //             value: slug
+// //         })
+// //     }
+// // }
+
