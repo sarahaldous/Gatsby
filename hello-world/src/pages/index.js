@@ -13,13 +13,13 @@ const Index = () => {
     )
 }
 // import Paragraph from "../components/paragraph"
-{/* <link href="https://fonts.googleapis.com/css?family=Cousine&display=swap" rel="stylesheet"></link> 
+/* <link href="https://fonts.googleapis.com/css?family=Cousine&display=swap" rel="stylesheet"></link> 
 // font-family: 'Cousine', monospace;
 <link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet">
 </link>
 // font-family: 'Ubuntu', sans-serif;
 <link href="https://fonts.googleapis.com/css?family=Righteous&display=swap" rel="stylesheet"></link>
-// font-family: 'Righteous', cursive; */}
+// font-family: 'Righteous', cursive; */
 
 // export default () => 
 //  (

@@ -44,4 +44,4 @@ const Header = () => {
 }
 
 export default Header
-{/* // export default props => <h1>{props.headerText} {props.arbitraryPhrase}</h1> */}
+/* // export default props => <h1>{props.headerText} {props.arbitraryPhrase}</h1> */
