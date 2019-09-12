@@ -24,16 +24,26 @@ return (
             padding: ${rhythm(1.5)};
         `}
     >
-        <Link to={`/`}>
-        <h3
+          <h3
             css={css`
             margin-bottom: ${rhythm(2)};
             display: inline-block;
             font-style: normal;
+           
             `}
       >
           {data.site.siteMetadata.title}
       </h3>
+        <Link 
+            to={`/`}
+            css={css`
+                float: right;
+                margin-right: 5%;
+                margin-left: 5%;
+        `}
+        >
+                Home
+      
         </Link>
         <Link
             to={`/about/`}

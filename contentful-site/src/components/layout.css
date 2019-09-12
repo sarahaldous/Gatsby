@@ -2,10 +2,13 @@ html {
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
+
+  text-align: center;
+  
 }
 body {
   margin: 0;
-  background-color: blanchedalmond;
+  background-color: rgb(192, 237, 255);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -166,7 +169,7 @@ textarea {
   box-sizing: border-box;
   padding: 0;
 }
-[type="number"]::-webkit-inner-spin-button,
+/* [type="number"]::-webkit-inner-spin-button,
 [type="number"]::-webkit-outer-spin-button {
   height: auto;
 }
@@ -177,15 +180,15 @@ textarea {
 [type="search"]::-webkit-search-cancel-button,
 [type="search"]::-webkit-search-decoration {
   -webkit-appearance: none;
-}
-::-webkit-input-placeholder {
+} */
+/* ::-webkit-input-placeholder {
   color: inherit;
   opacity: 0.54;
 }
 ::-webkit-file-upload-button {
   -webkit-appearance: button;
   font: inherit;
-}
+} */
 html {
   font: 112.5%/1.45em cambria, serif;
   box-sizing: border-box;
@@ -322,6 +325,10 @@ h6 {
   text-rendering: optimizeLegibility;
   font-size: 0.78405rem;
   line-height: 1.1;
+}
+main {
+  /* margin: 0 15%; */
+  padding: 0 15%;
 }
 hgroup {
   margin-left: 0;
