@@ -2,10 +2,11 @@ html {
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
-
+  background-color: blanchedalmond;
   text-align: center;
   
 }
+
 body {
   margin: 0;
   background-color: rgb(192, 237, 255);

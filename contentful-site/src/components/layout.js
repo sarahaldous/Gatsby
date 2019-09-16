@@ -1,6 +1,7 @@
 import React from "react"
 import PropTypes from "prop-types"
 import { useStaticQuery, Link, graphql } from "gatsby"
+import Header from "../components/header"
 
 const ListLink = props => (
   <li style={{ display: `inline-block`, marginRight: `1rem` }}>
@@ -12,7 +13,7 @@ export default ({ children }) => (
   <div style={{ Margin: `3rem auto`, maxwidth: `60%`, padding: `0 1rem` }}>
         <header style={{ marginBottom: `1.5rem` }}>
       <Link to="/" style={{ textShadow: `none`, backgroundImage: `none` }}>
-        <h3 style={{ display: `inline` }}>MySweetSite</h3>
+        <h3 style={{ display: `inline` }}>Contentful</h3>
       </Link>
       <ul style={{ listStyle: `none`, float: `right` }}>
         <ListLink to="/">Home</ListLink>
@@ -20,6 +21,7 @@ export default ({ children }) => (
         <ListLink to="/contact/">Contact</ListLink>
       </ul>
     </header>
+    <Header />
     {children}
   </div>
 )

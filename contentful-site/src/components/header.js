@@ -17,27 +17,30 @@ const Header = ({ siteTitle }) => (
     }}
   >
     <Link to="/" style={{ textShadow: `none`, backgroundImage: `none` }}>
-    <h1 style={{ margin: 0 }}></h1>
+    <h1 style={{ margin: 0 }}>Contentful</h1>
     </Link>
       <ul style={{ listStyle: `none`, backgroundImage: `none` }}>
-        <ListLink
+        <Link
           to="/"
           style={{
             color: `white`,
             textDecoration: `none`,
-          }}>Home</ListLink>
-          <ListLink
+            padding: `10px`,
+          }}>Home</Link>
+          <Link
           to="/about/"
           style={{
             color: `white`,
             textDecoration: `none`,
-          }}>About</ListLink>
-          <ListLink
+            padding: `10px`,
+          }}>About</Link>
+          <Link
           to="/contact/"
           style={{
             color: `white`,
             textDecoration: `none`,
-          }}>Contact</ListLink>
+            padding: `10px`,
+          }}>Contact</Link>
           </ul>
         
         </header>

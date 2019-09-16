@@ -5,7 +5,7 @@ import Header from '../components/header'
 const ContactPage = () => {
     return (
         <div> 
-            <Header headerText="Something"/>
+            {/* <Header headerText="Something"/> */}
             <Layout>
                 <h1>Do you want to contact us?</h1>
                 <p>Makes sense.</p>
