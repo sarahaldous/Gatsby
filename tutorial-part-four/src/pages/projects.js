@@ -15,7 +15,7 @@
 //    const data = useStaticQuery(
 //         graphql`
 //         query {
-//           allAirtable {
+//           allAirtable (filter: {table: {eq: "V_School_Projects"}, data: {Field_1: {eq: "Your_Name"}}}) {
 //               edges {
 //                 node {
 //                   recordId 
@@ -98,3 +98,10 @@
 // }
 
 // export default Projects 
+
+// Possibly helpful links:
+// https://www.gatsbyjs.org/packages/gatsby-source-airtable/
+// https://airtable.com/appq62L2af4g5N4lL/api/docs#curl/introduction
+// https://medium.com/@sgpropguide/fetching-data-from-airtable-into-gatsby-fd74b97170c9
+// https://github.com/kevzettler/gatsby-source-airtable/issues/12
+// https://blog.airtable.com/build-your-own-custom-blog-cms-with-airtable-and-gatsbyjs/
