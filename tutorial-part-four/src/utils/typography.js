@@ -1,1 +1,8 @@
-// 2Eq2 1`
+import React from "react"
+
+export default ({ children }) => (
+  <div>
+-    {children()}
++    {children}
+  </div>
+)
