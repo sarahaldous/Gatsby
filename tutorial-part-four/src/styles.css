@@ -2,7 +2,17 @@
     width: auto;
     height: auto;
 } */
+body {
+    /* background-color: rgba(49, 143, 115, 0.226); */
+    background-color: rgba(255, 205, 185, 0.438);
+}
 .footer {
     color: purple;
     background-color: palevioletred;
+}
+.projectCard {
+    border: 1px solid black;
+    margin: 10px;
+    background-color: rgba(58, 58, 80, 0.205);
+    text-align: center;
 }
