@@ -6,6 +6,9 @@ body {
     /* background-color: rgba(49, 143, 115, 0.226); */
     background-color: rgba(255, 205, 185, 0.438);
 }
+.layoutHeader {
+    text-shadow: 2px 1px 1px rgb(100, 100, 100);
+}
 .footer {
     color: purple;
     background-color: palevioletred;
