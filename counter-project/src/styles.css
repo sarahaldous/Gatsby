@@ -1,0 +1,17 @@
+* {
+    background-color: rgb(77, 85, 112);
+}
+.siteTitle {
+    justify-content: center;
+}
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    color: navy;
+}
+.navbar:active {
+    color: pink;
+}
+.navbar:focus {
+    color: yellow;
+}

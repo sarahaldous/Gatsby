@@ -1,14 +1,12 @@
 import React from "react"
 import Layout from "../components/layout"
+import "../styles.css"
 
 export default () => (
   <Layout>
-    <h1>Amazing Pandas Eating Things</h1>
-    <div>
-      <img
-        src="https://2.bp.blogspot.com/-BMP2l6Hwvp4/TiAxeGx4CTI/AAAAAAAAD_M/XlC_mY3SoEw/s1600/panda-group-eating-bamboo.jpg"
-        alt="Group of pandas eating bamboo"
-      />
-    </div>
+    <h1>Learning about Hooks</h1>
+    <h3>
+        This site hosts two different counters, each of which increments/decrements the values by 1. The point of the site is to test out both methods to see which would work better for a similar function on the new V School website.
+    </h3>
   </Layout>
 )
