@@ -21,7 +21,7 @@ const NewProjects = () => {
     return (
         <Layout>
         <div>
-            <form onSubmit={handleSubmit}>
+            {/* <form onSubmit={handleSubmit}>
             <input 
                     type="text" 
                     name="fullname" 
@@ -39,10 +39,11 @@ const NewProjects = () => {
                 </select>
                     </label>
                 <button>Submit</button>
-            </form>
-            <div>
+            </form> */}
+            {/* <iframe class="airtable-embed" src="https://airtable.com/embed/shrJYVmq2n5mY52xY?backgroundColor=blue" frameborder="0" onmousewheel="" width="100%" height="533" style="background: transparent; border: 1px solid #ccc;"></iframe> */}
+            {/* <div>
             {namesArr.map(person => <h1>{person.firstname}  {person.lastname}</h1>)}
-            </div>
+            </div> */}
         </div>
         </Layout>
     )

@@ -11,11 +11,11 @@ export default ({ children }) => (
  
     <header style={{ marginBottom: `1.5rem` }}>
       
-        <h3 className="layoutHeader"style={{ display: `inline` }}>Projects from V School. Two Counters. And also Panda pics.</h3>
+        <h1 className="layoutHeader"style={{ display: `inline` }}>Projects from V School. And also Panda pics.</h1>
      
-      <ul style={{ listStyle: `none`, float: `right` }}>
+      <ul style={{ listStyle: `none` }}>
         <ListLink to="/">Home</ListLink>
-        <ListLink to="/about/">About</ListLink>
+        
         <ListLink to="/projects/">Projects</ListLink>
         <ListLink to="/counter/">Counter</ListLink>
         <ListLink to="/hooks-counter/">Hooks Counter</ListLink>

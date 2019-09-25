@@ -4,12 +4,14 @@ import "../styles.css"
 
 export default () => (
   <Layout>
-    <h1>Amazing Pandas Eating Things</h1>
-    <div>
-      <img
-        src="https://2.bp.blogspot.com/-BMP2l6Hwvp4/TiAxeGx4CTI/AAAAAAAAD_M/XlC_mY3SoEw/s1600/panda-group-eating-bamboo.jpg" width="50%" 
-        alt="Group of pandas eating bamboo"
-      />
+    <h2 style={{ display: `flex`, justifyContent: `center`}} > V School Project Site</h2>
+    <div >
+      <p>
+        This site was designed to display the various projects submitted by V School students and alumni. These projects showcase everything from the very early pre-course projects completed before classes even started to the culminating individual and group fullstack projects done at the end of the 12-week immersive course. 
+      </p>
+      <p>
+        This is meant to give students inspiration as to what projects they might do, and an idea of how much they're likely to have learned by the end of the three months. 
+      </p>
     </div>
   </Layout>
 )
