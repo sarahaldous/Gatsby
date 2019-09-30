@@ -16,7 +16,7 @@ export default ({ children }) => {
         `
     )
     return (
-        <div className="siteTitle"
+        <div
             css={css`
             margin: 0 auto;
             max-width: 700px;
