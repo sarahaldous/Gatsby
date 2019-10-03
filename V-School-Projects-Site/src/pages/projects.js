@@ -13,7 +13,7 @@ export default () => {
    const data = useStaticQuery(
         graphql`
         query {
-          allAirtable (filter: {table: {eq: "Projects"}}) {
+          allAirtable  {
               edges {
                 node {
                   recordId 
