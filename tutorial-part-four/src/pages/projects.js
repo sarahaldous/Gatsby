@@ -48,7 +48,8 @@ export default () => {
             <h3>by {project.node.data.Your_Name}</h3>
             <p>{project.node.data.Project_Type}</p>
             <p><a href={project.node.data.Link_To_Portfolio} target="blank" rel="noopener noreferrer">Portfolio</a></p>
-            {/* <p><a href={project.node.data.Project_Link} target="_blank" rel="noopener noreferrer">{project.node.data.Link_To_Portfolio}</a></p> */}
+            <p><a href={project.node.data.Screenshot} target="_blank" rel="noopener noreferrer">{project.node.data.Screenshot}</a></p>
+            <p><a href={project.node.data.Monkey} target="_blank" rel="noopener noreferrer">{project.node.data.Monkey}</a></p>
             <div>
               {/* <img class="thumbnail" src={project.node.data.Screen_Shot} alt="" frameborder="0" allowfullscreen overflow="hidden"></img>   */}
             </div> 

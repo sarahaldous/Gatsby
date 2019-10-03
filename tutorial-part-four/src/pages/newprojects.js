@@ -21,29 +21,7 @@ const NewProjects = () => {
     return (
         <Layout>
         <div>
-            {/* <form onSubmit={handleSubmit}>
-            <input 
-                    type="text" 
-                    name="fullname" 
-                    value={inputs.fullname}
-                    onChange={handleChange}
-                    placeholder="Full Name"/>
-              <label>
-                <select 
-                    value={inputs.chosenProjectType}
-                    onChange={handleChange}
-                    placeholder="Project Type">
-                        <option value="preCourse">Pre-Course</option>
-                        <option value="personalFullStack">Personal Full Stack</option>
-                        <option value="reactAPI">React reactAPI</option>
-                </select>
-                    </label>
-                <button>Submit</button>
-            </form> */}
-            {/* <iframe class="airtable-embed" src="https://airtable.com/embed/shrJYVmq2n5mY52xY?backgroundColor=blue" frameborder="0" onmousewheel="" width="100%" height="533" style="background: transparent; border: 1px solid #ccc;"></iframe> */}
-            {/* <div>
-            {namesArr.map(person => <h1>{person.firstname}  {person.lastname}</h1>)}
-            </div> */}
+          <h3>This will soon have a form where new projects can be added by students.</h3>
         </div>
         </Layout>
     )

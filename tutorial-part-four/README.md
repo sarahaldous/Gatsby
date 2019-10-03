@@ -1,7 +1,5 @@
-This site was made to practice doing several different things in Gatsby. 
+This simple, responsive website was made to display student projects created at various stages of an immersive 3-month web development course.
 
-Initially, it was just the culmination of doing all of the main Gatsby tutorials to learn that technology. This project specifically required making a blog website that displayed Markdown pages as blog posts. 
+The site accomplishes this by storing the project info on Airtable and connecting that database to a Gatsby front end. You can filter the projects by type, and can click through to view the projects, as well as the github repos for each one (when the students supplied them). This required setting up a data table on Airtable, then connecting that information to the site through keys, then figuring out, using graphQL, how the data was organized and how to access the information to be displayed. 
 
-The biggest thing we were testing out for purposes of the website that is being made is connecting Airtable to Gatsby in order to display student projects. The Projects page takes you to a list of student projects, from very beginning to final projects in an accelerated web development program. You can filter the projects by type, and can click through to view the projects and the github repos for each one. This part required setting up a data table on Airtable, then connecting that information to the site through keys, then figuring out using graphQL how the data was organized and how to access the information to be displayed. 
-
-The ability to add new projects is not yet fully functional.
+The ability to add new projects is not yet functional, but adding that ability, as well as screen shots from the various projects, is what's up next for this site.

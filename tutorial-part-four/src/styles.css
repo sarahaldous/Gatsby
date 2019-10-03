@@ -1,15 +1,14 @@
-/* .thumbnail {
-    width: auto;
-    height: auto;
-} */
 body {
-    /* background-color: rgba(49, 143, 115, 0.226); */
     background-color: rgba(255, 205, 185, 0.438);
-    
 }
-
+.linkList {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .layoutHeader {
     text-shadow: 2px 1px 1px rgb(100, 100, 100);
+    justify-content: center;
 }
 .footer {
     color: purple;
