@@ -23,7 +23,6 @@ export default () => {
                     Project_Name
                     Project_Link
                     Link_To_Portfolio
-                    
                 }
               }
             }
