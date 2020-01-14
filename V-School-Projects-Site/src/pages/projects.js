@@ -30,14 +30,14 @@ export default () => {
         }
         `
       )
-        console.log(data.allAirtable)
+   
       const projectTypes = ["All", ...Array.from(new Set(data.allAirtable.edges.map(project => project.node.data.Project_Type)))]
  
       const projectTypeOptions = projectTypes.map(function(type) {
         return <option value={type}>{type}</option>
         
       }) 
-      console.log(projectTypes)
+    
       
      const filteredProjects =
       data.allAirtable.edges.filter(project => project.node.data.Project_Type === projectTypeFilter || projectTypeFilter === "All")
@@ -61,15 +61,17 @@ export default () => {
             css={css`
               margin: 0 auto;
               max-width: 700px;
-             
             `}
           >
+            <div className="containsDropDown">
               <select 
+                  className="dropDownMenu"
                   value={projectTypeFilter}
                   // onChange={handleChange}
                   onChange={handleChange}>
                  {projectTypeOptions}
               </select>
+            </div>
            
             {filteredProjects}
 
