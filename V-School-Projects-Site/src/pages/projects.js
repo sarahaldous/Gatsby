@@ -48,9 +48,9 @@ export default () => {
             <p>{project.node.data.Project_Type}</p>
             <p><a href={project.node.data.Link_To_Portfolio} target="blank" rel="noopener noreferrer">Portfolio</a></p>
             <p><a href={project.node.data.Screenshot} target="_blank" rel="noopener noreferrer">{project.node.data.Screenshot}</a></p>
-            <p><a href={project.node.data.Monkey} target="_blank" rel="noopener noreferrer">{project.node.data.Monkey}</a></p>
+            
             <div>
-              {/* <img class="thumbnail" src={project.node.data.Screen_Shot} alt="" frameborder="0" allowfullscreen overflow="hidden"></img>   */}
+              {/* <img class="thumbnail" src={project.node.data.Screen_Shot} alt="" frameborder="0" allowFullScreen overflow="hidden"></img>   */}
             </div> 
         </div>
 
@@ -67,7 +67,6 @@ export default () => {
               <select 
                   className="dropDownMenu"
                   value={projectTypeFilter}
-                  // onChange={handleChange}
                   onChange={handleChange}>
                  {projectTypeOptions}
               </select>
@@ -91,23 +90,7 @@ export default () => {
                 float: right;
               `}
             ></Link>
-              
-           
           </div>
-    
         </Layout>
       )
 }
-
-// export default Projects 
-
-// Possibly helpful links:
-// https://www.gatsbyjs.org/packages/gatsby-source-airtable/
-// https://airtable.com/appq62L2af4g5N4lL/api/docs#curl/introduction
-// https://medium.com/@sgpropguide/fetching-data-from-airtable-into-gatsby-fd74b97170c9
-// https://github.com/kevzettler/gatsby-source-airtable/issues/12
-// https://blog.airtable.com/build-your-own-custom-blog-cms-with-airtable-and-gatsbyjs/
-
-// Questions for Bob: What info is on Contentful site?
-// How to connect to Airtable on this site
-// vulnerabilities on Github - just normal maintenance? What's the best way to deal with them?
