@@ -15,6 +15,9 @@ export default ({ data }) => {
             css={css`
               display: inline-block;
               border-bottom: 1px solid;
+              &:hover {
+                color: teal;
+              }
             `}
           >
             Amazing Pandas Eating Things
@@ -26,18 +29,23 @@ export default ({ data }) => {
                     to={node.fields.slug}
                     css={css`
                         text-decoration: none;
-                        color: inherit;                        
+                        color: inherit; 
+                                            
                     `}
                 >
               <h3
                 css={css`
+                &:hover {
+                  color: teal;
+                }
                   margin-bottom: ${rhythm(1 / 4)};
                 `}
               >
                 {node.frontmatter.title}{" "}
                 <span
+                  className="span"
                   css={css`
-                    color: #bbb;
+                  color: #808080
                   `}
                 >
                   — {node.frontmatter.date}

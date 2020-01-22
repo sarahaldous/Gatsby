@@ -29,7 +29,7 @@ return (
             margin-bottom: ${rhythm(2)};
             display: inline-block;
             font-style: normal;
-           
+            
             `}
       >
           {data.site.siteMetadata.title}
@@ -38,8 +38,12 @@ return (
             to={`/`}
             css={css`
                 float: right;
+                color: rgb(192, 28, 64);
                 margin-right: 5%;
                 margin-left: 5%;
+                &:hover {
+                    color: teal;
+                }
         `}
         >
                 Home
@@ -49,6 +53,10 @@ return (
             to={`/about/`}
             css={css`
                 float: right;
+                color: rgb(192, 28, 64);
+                &:hover {
+                    color: teal;
+                }
             `}
         >
             About
