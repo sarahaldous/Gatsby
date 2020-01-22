@@ -1,6 +1,8 @@
 import React from "react"
 import { Link, graphql } from "gatsby"
 import { css } from "@emotion/core"
+import "../styles.css"
+
 import { rhythm } from "../utils/typography"
 import Layout from "../components/layout"
 
@@ -24,7 +26,7 @@ export default ({ data }) => {
                     to={node.fields.slug}
                     css={css`
                         text-decoration: none;
-                        color: inherit;
+                        color: inherit;                        
                     `}
                 >
               <h3
