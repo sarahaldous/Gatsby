@@ -19,17 +19,19 @@ export default ({ data }) => {
         </h1>
         <h4>{data.allMarkdownRemark.totalCount} Posts</h4>
         {data.allMarkdownRemark.edges.map(({ node }) => (
-          <div key={node.id}>
+          <div className="links" key={node.id}>
                <Link
               to={node.fields.slug}
               css={css`
                 text-decoration: none;
                 color: inherit;
+                
               `}
             >
             <h3
               css={css`
                 margin-bottom: ${rhythm(1 / 4)};
+                text-decoration: underline;
               `}
             >
               {node.frontmatter.title}{" "}
